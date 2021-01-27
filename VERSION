@@ -1,0 +1,17 @@
+commit 17aba7912661d05a58a0f1652e1dc22e906a2dcc
+Author: Emmett Lalish <elalish@google.com>
+Date:   Tue Jan 26 15:56:24 2021 -0800
+
+    Deprecate IE11, de-flake tests (#1975)
+    
+    * smaller model for fidelity tests
+    
+    * removed legacy bundle
+    
+    * extra test for flake
+    
+    * removed IS_IE11
+    
+    * skip test on iOS
+    
+    * updated docs
